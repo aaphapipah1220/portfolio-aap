@@ -1,0 +1,33 @@
+.home {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-image: url("../assets/grain-img.png");
+    background-size: 55%;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.home h1 {
+    padding: 0;
+}
+
+.name {
+    position: relative;
+    font-size: 120px;
+    font-weight: 1000;
+    left: 400px;
+    /* color: #1A4D2E; */
+    color: #181C14;
+}
+
+.value {
+    font-size: 70px;
+    font-weight: 100;
+    position: relative;
+    bottom: 110px;
+    left: 222px;
+}
